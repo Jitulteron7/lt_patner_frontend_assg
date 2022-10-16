@@ -1,0 +1,25 @@
+.container{
+    background-color:#fff;
+}
+.container tbody tr {
+    padding:10px;
+}
+.container tbody tr:hover{
+    background-color:rgb(244, 248, 255);
+}
+
+.table_body{
+    border-radius: 10px;
+    padding: 10px;
+}
+td div {
+    padding: 15px;
+  }
+th div {
+    padding: 15px;
+}
+tbody span{
+    display: flex;    
+    justify-content:center;
+    align-items:center;
+}

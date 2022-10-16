@@ -1,0 +1,37 @@
+{currentTableData?.map((item, idx) => {
+                        return (
+                            <div className={classes.boxes}>
+                                <Link className={classes.achor_link} to={"/graph"} state={{ id: item.id, name: item.name }}>
+                                    <div key={idx} >
+                                        {/* <div>
+                                            {item.id}
+                                        </div> */}
+
+                                        <div>
+                                            {item.rank}
+                                        </div>
+                                        <div>
+                                            {item.fullName}
+                                        </div>
+                                        <div>
+                                            {item.name}
+                                        </div>
+                                        <div>
+                                            {item.dayChange}
+                                        </div>
+                                        <div>
+                                            {item.price}
+                                        </div>
+                                        <div>
+                                            {item.symbol}
+                                        </div>
+                                        <div style={{ display: "flex" }}>
+                                            {item.tags?.map((tag, i) => {
+                                                return (<div key={i}>{tag}</div>)
+                                            })}
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        )
+                    })}

@@ -1,0 +1,18 @@
+.container{
+ border-radius: 5px;     
+ margin:5px;
+ padding:5px 20px;
+ color: rgb(126, 126, 126) ;
+ font-weight: bold;
+ font-size:.9rem;
+}
+
+.container:hover{
+    border-radius: 10px;      
+    cursor: pointer;
+    background-color: rgb(233, 245, 255);
+}
+.active{
+    background-color: #d7edffc5;
+    color: #3096f6;
+}
